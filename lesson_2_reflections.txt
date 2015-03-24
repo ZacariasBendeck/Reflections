@@ -9,3 +9,9 @@ I can also use the staging area to run git diff and make sure of what changes I 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When I make an experimental change.  
 When I make a change any change that I am unsure of if it needs to stay with the master branch. 
+How do the diagrams help you visualize the branch structure?
+It helps me understand what commits are going to be shown by git log.
+Shows me which branches are unreachable.  shows me the differences between each branch. 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All the changes in the two branches were incorporated into one new file commit. 
+When one branch erased a line of code it gets erased. All additions stay and get merged. 
