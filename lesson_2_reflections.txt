@@ -6,3 +6,6 @@ The value of this is you can decide to commit files in different groups or indiv
 How can you use the staging area to make sure you have one commit per logical change?
 I can use the staging area to only add one file at a time per commit, that way the changes I make will only have one logical change. 
 I can also use the staging area to run git diff and make sure of what changes I am making. 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I make an experimental change.  
+When I make a change any change that I am unsure of if it needs to stay with the master branch. 
