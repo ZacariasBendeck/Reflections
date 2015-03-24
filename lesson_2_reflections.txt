@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need it?
+The directory becomes a repository by creating a file named .git.  This is will control and save all the things necessary for the directory to be a repository. 
