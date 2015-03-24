@@ -15,3 +15,7 @@ Shows me which branches are unreachable.  shows me the differences between each 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 All the changes in the two branches were incorporated into one new file commit. 
 When one branch erased a line of code it gets erased. All additions stay and get merged. 
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Automatic merging is great for most code, because of the logic that is used, most of the new code will be fine.  This will save a lot of time. 
+Manualy you only want to fix possible mistakes. not check everything in a merger.  But you will always end up having to do wome things manually.
+ 
