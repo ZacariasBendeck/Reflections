@@ -1,2 +1,8 @@
 What happens when you initialize a repository? Why do you need it?
 The directory becomes a repository by creating a file named .git.  This is will control and save all the things necessary for the directory to be a repository. 
+How is the staging area different from the working directory and the depository? What value do you think it offers?
+The staging area is a temporary place to add files to commit.  After you make a commit the staging area will be empty again. 
+The value of this is you can decide to commit files in different groups or individually by having this.  
+How can you use the staging area to make sure you have one commit per logical change?
+I can use the staging area to only add one file at a time per commit, that way the changes I make will only have one logical change. 
+I can also use the staging area to run git diff and make sure of what changes I am making. 
