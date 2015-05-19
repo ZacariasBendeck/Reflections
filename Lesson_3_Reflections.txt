@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+This would be for collaborating with other people.  If I was only programming for myself, I might just be using dropbox.  But I will 
+learn about the functionality of gihub and see how it goes. 
