@@ -1,4 +1,14 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-This would be for collaborating with other people.  If I was only programming for myself, I might just be using dropbox.  But I will 
-learn about the functionality of gihub and see how it goes. 
+This would be for collaborating with other people.  If I was only programming for myself, I might just be using dropbox.  But I will
+learn about the functionality of gihub and see how it goes.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+1. If collaborating, I dont want updates from other people to interfere with what I am working on.
+2. Also, if Git is staying up-to-date automatically, wouldn't I lose my changes automatically every time Git updates?
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+Forks are clones made in github.  When you dont have permission to change someone elses repository.
+You copy it into your own account. That is a fork.  A clone is when you copy a repository. So a fork is a clone in github,
+but you can also clone a repository in your local computer also.  Branching is adding code, but not commiting
+to the master branch.  This is to create two distinct versions of your code. 
