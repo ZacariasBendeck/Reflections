@@ -11,4 +11,19 @@ Describe the differences between forks, clones, and branches.  When would you us
 Forks are clones made in github.  When you dont have permission to change someone elses repository.
 You copy it into your own account. That is a fork.  A clone is when you copy a repository. So a fork is a clone in github,
 but you can also clone a repository in your local computer also.  Branching is adding code, but not commiting
-to the master branch.  This is to create two distinct versions of your code. 
+to the master branch.  This is to create two distinct versions of your code.
+
+Important!
+you have to things in you local repository.
+1.  origin and origin/master
+2.  origin is what you commit locally, origin/master is the last push or pull from github.
+
+Fast-Forward Merge:
+A must be reachable from B, that is the only condition.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+The benefit is the ability to merge future changes.  With this local branch
+we will be able to compare the updated remote master branch to the last state we
+pulled, and also our own local last commit to this local.  It is good information to
+have also so we know what we are uploading before we update the remote repository.
